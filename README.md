@@ -25,8 +25,8 @@
 2. 无需`Java`环境
 
 #### 文件索引
-1. Code: IDEA工程源码
-2. Install: 安装包
-3. Pkg: exe4j打包资源路径，需要重新打包时使用
+- Code: IDEA工程源码
+- Install: 安装包
+- Pkg: exe4j打包资源路径，需要重新打包时使用
        
         
