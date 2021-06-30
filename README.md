@@ -25,12 +25,13 @@
 2. 无需`Java`环境
 
 #### 文件索引
+│  
 ├─Code
 │  │  .DS_Store
 │  │  .keep
 │  │  JavaFxApplication.iml
 │  │  location.cfg
-│  │
+│  │  
 │  ├─.idea
 │  │  │  compiler.xml
 │  │  │  description.html
@@ -42,15 +43,15 @@
 │  │  │  uiDesigner.xml
 │  │  │  vcs.xml
 │  │  │  workspace.xml
-│  │  │
+│  │  │  
 │  │  └─artifacts
 │  │          JavaFxApplication_jar.xml
-│  │
+│  │          
 │  ├─out
 │  │  ├─artifacts
 │  │  │  └─JavaFxApplication_jar
 │  │  │          JavaFxApplication.jar
-│  │  │
+│  │  │          
 │  │  └─production
 │  │      └─JavaFxApplication
 │  │          ├─Data
@@ -59,33 +60,33 @@
 │  │          │      │      1n_0603.xml
 │  │          │      │      1u_0603.xml
 │  │          │      │      Data.xml
-│  │          │      │
+│  │          │      │      
 │  │          │      ├─Diode
 │  │          │      │      1_0402.xml
 │  │          │      │      IN4007_SMA.xml
-│  │          │      │
+│  │          │      │      
 │  │          │      ├─IC
 │  │          │      │      OPA171_0402.xml
-│  │          │      │
+│  │          │      │      
 │  │          │      ├─R
 │  │          │      │      100R_0603.xml
 │  │          │      │      14R_0402.xml
 │  │          │      │      1R_0402.xml
 │  │          │      │      999R_0603.xml
-│  │          │      │
+│  │          │      │      
 │  │          │      └─Relay
 │  │          │              B3GA4.5Z_DIP.xml
-│  │          │
+│  │          │              
 │  │          ├─icon
 │  │          │      About.png
 │  │          │      add.png
 │  │          │      ECM.png
 │  │          │      search.png
 │  │          │      set.png
-│  │          │
+│  │          │      
 │  │          ├─META-INF
 │  │          │      MANIFEST.MF
-│  │          │
+│  │          │      
 │  │          └─sample
 │  │                  About.fxml
 │  │                  Add.fxml
@@ -101,7 +102,7 @@
 │  │                  Search_Files.class
 │  │                  Set.class
 │  │                  Set.fxml
-│  │
+│  │                  
 │  └─src
 │      ├─Data
 │      │  └─Data
@@ -110,17 +111,17 @@
 │      │      │      1n_0603.xml
 │      │      │      1u_0603.xml
 │      │      │      Data.xml
-│      │      │
+│      │      │      
 │      │      ├─Connector
 │      │      ├─Crystal
 │      │      ├─Diode
 │      │      │      1_0402.xml
 │      │      │      IN4007_SMA.xml
-│      │      │
+│      │      │      
 │      │      ├─Electroacoustic
 │      │      ├─IC
 │      │      │      OPA171_0402.xml
-│      │      │
+│      │      │      
 │      │      ├─L
 │      │      ├─Lighter
 │      │      ├─Other
@@ -130,10 +131,10 @@
 │      │      │      14R_0402.xml
 │      │      │      1R_0402.xml
 │      │      │      999R_0603.xml
-│      │      │
+│      │      │      
 │      │      ├─Relay
 │      │      │      B3GA4.5Z_DIP.xml
-│      │      │
+│      │      │      
 │      │      ├─Sensor
 │      │      ├─Switch
 │      │      └─Transformer
@@ -143,10 +144,10 @@
 │      │      ECM.png
 │      │      search.png
 │      │      set.png
-│      │
+│      │      
 │      ├─META-INF
 │      │      MANIFEST.MF
-│      │
+│      │      
 │      └─sample
 │              About.fxml
 │              Add.fxml
@@ -162,12 +163,12 @@
 │              Search_Files.java
 │              Set.fxml
 │              Set.java
-│
+│              
 ├─Install
 │  │  .keep
 │  │  ECM.exe
 │  │  location.cfg
-│  │
+│  │  
 │  ├─Data
 │  │  ├─BJT
 │  │  ├─C
@@ -266,10 +267,10 @@
 │      │  │  vcruntime140.dll
 │      │  │  verify.dll
 │      │  │  zip.dll
-│      │  │
+│      │  │  
 │      │  └─server
 │      │          jvm.dll
-│      │
+│      │          
 │      └─lib
 │          │  classlist
 │          │  fontconfig.bfc
@@ -285,10 +286,10 @@
 │          │  psfontj2d.properties
 │          │  tzdb.dat
 │          │  tzmappings
-│          │
+│          │  
 │          └─server
 │                  Xusage.txt
-│
+│                  
 └─Pkg
         .keep
         ECM.ico
