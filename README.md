@@ -14,7 +14,7 @@
 
 #### 使用说明
 
-请参见 Install 文件夹内 `Readme.pdf文件`
+请参见 Install 文件夹内 `Readme.pdf`文件
 
 
 #### 参与贡献
