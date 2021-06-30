@@ -24,3 +24,30 @@
 1. 添加、查找元器件
 2. 无需`Java`环境
 
+#### 文件索引
+ECM-------
+        |------Code
+        |        |------out
+        |        |       |------artifacts
+        |        |                  |------JavaFxApplication_jar
+        |        |                                   |------JavaFxApplication.jar
+        |        | 
+        |        |------src
+        |        |        |------Data
+        |        |        |------icon
+        |        |        |------sample
+        |        |
+        |        |------location.cfg
+        |
+        |  
+        |------Install
+        |         |------Data
+        |         |------JRE
+        |         |------ECM.exe
+        |         |------location.cfg
+        |         
+        |------Pkg
+                |------ECM.ico
+                |------JavaFxApplication.jar
+                |------pkg.exe4j
+
