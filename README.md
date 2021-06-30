@@ -2,6 +2,7 @@
 
 #### 介绍
 电子元件管理平台（Electronic component management）
+<br>
 
 #### 软件架构
 基于 `JavaFX` 开发，JDK版本 `9.0.4`
