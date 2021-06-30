@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_Add">
+    <children>
+        <TextField fx:id="Add_num" layoutX="300.0" layoutY="170.0" prefHeight="40.0" prefWidth="200.0" />
+        <TextField fx:id="Add_name" layoutX="300.0" layoutY="100.0" prefHeight="40.0" prefWidth="200.0" />
+        <Label alignment="CENTER" layoutX="235.0" layoutY="104.0" prefHeight="30.0" prefWidth="45.0" text="型号">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="235.0" layoutY="175.0" prefHeight="30.0" prefWidth="45.0" text="数量">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="235.0" layoutY="245.0" prefHeight="30.0" prefWidth="45.0" text="封装">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="235.0" layoutY="315.0" minHeight="30.0" minWidth="45.0" text="位置">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="Add_location" layoutX="300.0" layoutY="310.0" prefHeight="40.0" prefWidth="200.0" />
+        <Button fx:id="Add_Save" layoutX="241.0" layoutY="378.0" mnemonicParsing="false" onAction="#Add_save" prefHeight="40.0" prefWidth="258.0" text="保存">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Button>
+        <AmbientLight color="CHARTREUSE" layoutX="92.0" layoutY="120.0" lightOn="true" />
+        <Label alignment="CENTER" layoutX="235.0" layoutY="30.0" prefHeight="30.0" prefWidth="45.0" text="类别">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="species" layoutX="300.0" layoutY="30.0" prefHeight="40.0" prefWidth="200.0">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="电阻" />
+                    <String fx:value="电容" />
+                    <String fx:value="电感" />
+                    <String fx:value="变压器" />
+                    <String fx:value="继电器" />
+                    <String fx:value="IC" />
+                    <String fx:value="二极管" />
+                    <String fx:value="保险元件" />
+                    <String fx:value="三极管" />
+                    <String fx:value="开关" />
+                    <String fx:value="接插件" />
+                    <String fx:value="石英晶体" />
+                    <String fx:value="发光元件" />
+                    <String fx:value="电声器件" />
+                    <String fx:value="传感器" />
+                    <String fx:value="其它" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <ComboBox fx:id="Add_package" layoutX="300.0" layoutY="240.0" onAction="#setFootprint" prefHeight="40.0" prefWidth="200.0">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="0402" />
+                    <String fx:value="0603" />
+                    <String fx:value="0805" />
+                    <String fx:value="DIP" />
+                    <String fx:value="SOIC" />
+                    <String fx:value="SOP" />
+                    <String fx:value="BGA" />
+                    <String fx:value="SMA" />
+                    <String fx:value="SMB" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+    </children>
+</AnchorPane>

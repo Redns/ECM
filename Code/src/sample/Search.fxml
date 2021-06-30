@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane accessibleRole="COMBO_BOX" focusTraversable="true" pickOnBounds="false" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_Search">
+    <children>
+        <ComboBox fx:id="species" editable="true" layoutX="80.0" layoutY="44.0" onAction="#setSpecies" prefHeight="40.0" prefWidth="200.0" promptText="类别">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="电阻" />
+                    <String fx:value="电容" />
+                    <String fx:value="电感" />
+                    <String fx:value="变压器" />
+                    <String fx:value="继电器" />
+                    <String fx:value="IC" />
+                    <String fx:value="二极管" />
+                    <String fx:value="保险元件" />
+                    <String fx:value="三极管" />
+                    <String fx:value="开关" />
+                    <String fx:value="接插件" />
+                    <String fx:value="石英晶体" />
+                    <String fx:value="发光元件" />
+                    <String fx:value="电声器件" />
+                    <String fx:value="传感器" />
+                    <String fx:value="其它" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <Button fx:id="Search" layoutX="519.0" layoutY="44.0" mnemonicParsing="false" onAction="#Search" prefHeight="40.0" prefWidth="200.0" text="查找" />
+        <TableView fx:id="Data_Table" editable="true" layoutX="80.0" layoutY="122.0" prefHeight="352.0" prefWidth="639.0">
+            <columns>
+                <TableColumn id="type" fx:id="col_type" prefWidth="140.39998626708984" text="型号" />
+                <TableColumn fx:id="col_num" prefWidth="327.6000671386719" text="数量" />
+                <TableColumn fx:id="col_footprint" prefWidth="75.0" text="封装" />
+                <TableColumn fx:id="col_location" prefWidth="75.0" text="位置" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+        <TextField fx:id="type" layoutX="300.0" layoutY="44.0" prefHeight="40.0" prefWidth="200.0" promptText="型号" />
+    </children>
+</AnchorPane>

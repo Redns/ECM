@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_menu">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane fx:id="scene_pane" prefHeight="500.0" prefWidth="800.0">
+            <children>
+                <Button fx:id="ADD" layoutX="290.0" layoutY="100.0" mnemonicParsing="false" onAction="#go_Add" prefHeight="40.0" prefWidth="200.0" text="添加" />
+                <Button fx:id="SEARCH" layoutX="290.0" layoutY="180.0" mnemonicParsing="false" onAction="#go_Search" prefHeight="40.0" prefWidth="200.0" text="查找" />
+                <Button fx:id="ABOUT" layoutX="290.0" layoutY="340.0" mnemonicParsing="false" onAction="#go_About" prefHeight="40.0" prefWidth="200.0" text="关于" />
+                <Button fx:id="SET" layoutX="290.0" layoutY="260.0" mnemonicParsing="false" onAction="#go_Change" prefHeight="40.0" prefWidth="200.0" text="设置" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>
