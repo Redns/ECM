@@ -86,7 +86,4 @@
 ## License
 
 MIT © Richard McRichface
-
-
-​     
-​      
+      
