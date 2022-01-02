@@ -14,7 +14,7 @@
 
 ## Environment
 
-- [IDEA]([IntelliJ IDEA: The Capable & Ergonomic Java IDE by JetBrains](https://www.jetbrains.com/idea/))（非必需）
+- [IDEA](https://www.jetbrains.com/idea/)（非必需）
 
 <br>
 
